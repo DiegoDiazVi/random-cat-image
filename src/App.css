@@ -1,0 +1,23 @@
+main {
+    display: grid;
+    place-items: center;
+}
+
+main img {
+    width: 320px;
+    height: auto;
+}
+
+button {
+    border-radius: 50px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffffff53;
+}
