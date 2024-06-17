@@ -10,8 +10,8 @@ function App () {
     <main>
       <h1>Cat Image With Fact</h1>
       <button onClick={() => refreshCat()}>Refresh</button>
-      <p>{fact}</p>
-      <img src={imageUrl} alt='a cat image with the first three words fact' />
+      {fact && <p>{fact}</p>}
+      {imageUrl && <img src={imageUrl} alt='a cat image with the first three words fact' />}
     </main>
   )
 }
